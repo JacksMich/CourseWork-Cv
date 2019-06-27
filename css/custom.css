@@ -18,16 +18,18 @@
   height: 80vh;
 }
 
-@media only screen and (min-width: 400px) {
+/*@media only screen and (min-width: 400px) {*/
 /* For mobile phones: */
 [class*="col-"] {width: 100%;}
   .img-size{height: 40vh;}
-  .card {width:9rem;}
+  .card-main {width:9rem;}
   /*.col-4{width:}*/
 }
 
-@media only screen and (min-width: 600px) {
+/*@media only screen and (min-width: 600px) {*/
   /* For tablets: */
-}
+/*}*/
 @media only screen and (min-width: 768px) {
   /* For desktop: */
+  .card-main {width:18rem;}
+}
