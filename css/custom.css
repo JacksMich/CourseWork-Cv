@@ -18,18 +18,21 @@
   height: 80vh;
 }
 
-/*@media only screen and (min-width: 400px) {*/
+@media only screen and (min-width: 400px) {
 /* For mobile phones: */
 [class*="col-"] {width: 100%;}
+  .navbar navbar-expand-lg navbar-dark bg-dark{width:50rem;}
   .img-size{height: 40vh;}
-  .card-main {width:9rem;}
+  .card-main {width:20rem;}
   /*.col-4{width:}*/
 }
 
-/*@media only screen and (min-width: 600px) {*/
+@media only screen and (min-width: 600px) {
   /* For tablets: */
-/*}*/
+  .card-main {width:25rem;}
+}
 @media only screen and (min-width: 768px) {
   /* For desktop: */
-  .card-main {width:18rem;}
+  .card-main {width:40rem;}
+  
 }
