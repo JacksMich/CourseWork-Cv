@@ -24,6 +24,7 @@
   .navbar navbar-expand-lg navbar-dark bg-dark{width:50rem;}
   .img-size{height: 40vh;}
   .card-main {width:4rem;}
+  .card-project{width:9rem;}
   /*.col-4{width:}*/
 }
 
@@ -34,5 +35,6 @@
 @media only screen and (min-width: 768px) {
   /* For desktop: */
   .card-main {width:40rem;}
+  .card-project{width:30rem;}
 
 }
