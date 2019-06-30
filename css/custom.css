@@ -20,10 +20,10 @@
 
 @media only screen and (min-width: 400px) {
 /* For mobile phones: */
-[class*="col-"] {width: 100%;}
+/*[class*="col-"] {width: 100%;}*/
   .navbar navbar-expand-lg navbar-dark bg-dark{width:50rem;}
   .img-size{height: 40vh;}
-  .card-main {width:20rem;}
+  .card-main {width:4rem;}
   /*.col-4{width:}*/
 }
 
@@ -34,5 +34,5 @@
 @media only screen and (min-width: 768px) {
   /* For desktop: */
   .card-main {width:40rem;}
-  
+
 }
