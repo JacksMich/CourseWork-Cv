@@ -17,7 +17,7 @@
 .img-size{
   height: 80vh;
 }
-.navbar-header{
+.navbar navbar-inverse{
   background-color: #353D3F;
 
 }
