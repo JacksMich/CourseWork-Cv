@@ -17,9 +17,9 @@
 .img-size{
   height: 80vh;
 }
-.navbarbg{
+.navbar-header{
   background-color: #353D3F;
-  
+
 }
 @media only screen and (min-width: 400px) {
 /* For mobile phones: */
