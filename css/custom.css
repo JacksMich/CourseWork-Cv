@@ -24,8 +24,7 @@
 @media only screen and (min-width: 400px) {
 /* For mobile phones: */
 /*[class*="col-"] {width: 100%;}*/
-  .navbar navbar-expand-lg navbar-dark bg-dark{width:50rem;}
-  .img-size{width: 20rem;}
+  /*.img-size{width: 20rem;}*/
   .card-main {width:9rem;}
   .card-project{width:9rem;}
   /*.col-4{width:}*/
@@ -39,6 +38,6 @@
   /* For desktop: */
   .card-main {width:40rem;}
   .card-project{width:30rem;}
-  .img-size{width:30rem;}
+  /*.img-size{width:30rem;}*/
 
 }
