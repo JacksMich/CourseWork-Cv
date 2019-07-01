@@ -12,7 +12,6 @@
     <title>~Jacque's Website~</title>
   </head>
   <body>
-    <div class="my-background">
       <nav class="navbar navbar-inverse">
         <div class="container-fluid">
           <div class="navbar-header">
@@ -26,7 +25,7 @@
           </ul>
         </div>
       </nav>
-      
+
 <h1>Contact me</h1>
 <p><large class="text-muted">You can contact me directly form here if you have a quick query on how I was able to complete my projects.</large></p>
 <p><large class="text-muted">For a quick chat feel free to email me :)</large></p>
@@ -54,6 +53,14 @@
   </div>
   <a href="query.html" class="btn btn-color">Submit query</a>
 </form>
+
+<script src="bootstrap-validate.js"></script>
+<script>
+ bootstrapValidate('#inputEmail4', 'Email should be in this form 'xyz@abc.com'')
+ bootstrapValidate('#inputFullName', 'Name is missing')
+ bootstrapValidate('#inputSubject', 'Field is missing')
+ bootstrapValidate('#inputQuery','max:75:Please do not exceed more than 75 characters')
+</script>
 
 <footer>
 <div class="ml-auto p-1 bd-highlight"></div>
