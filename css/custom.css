@@ -17,8 +17,8 @@
 .img-size{
   height: 80vh;
 }
-.navbar navbar-inverse{
-  background-color: #353D3F;
+.navbarbg{
+  background-color: #746A5F;
 
 }
 @media only screen and (min-width: 400px) {
