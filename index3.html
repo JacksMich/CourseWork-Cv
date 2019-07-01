@@ -58,16 +58,24 @@
     <textarea class="form-control" id="inputQuery" rows="3"></textarea>
     <div class="help-block">Maximum of 75 characters</div>
   </div>
-  <a href="query.html" class="btn btn-color">Submit query</a>
+  <div class="form-group">
+    <button type="submit" class="btn btn-primary">Submit query</button>
+  </div>
+  <--<a href="query.html" class="btn btn-color">Submit query</a>-->
 </form>
-
-<!--<script src="bootstrap-validate.js"></script>
+<script src="js/bootstrapValidator.min.js" type="text/javascript"></script>
 <script>
- bootstrapValidate('#inputEmail4', 'Email should be in this form 'xyz@abc.com'')
- bootstrapValidate('#inputFullName', 'min:5:Name is missing')
- bootstrapValidate('#inputSubject', 'min:5:Field is missing')
- bootstrapValidate('#inputQuery','max:75:Please do not exceed more than 75 characters')
-</script>-->
+$('#form').validator().on('submit', function (e) {
+  if (e.isDefaultPrevented()) {
+    // handle the invalid form...
+  } else {
+    // everything looks good!
+
+
+  }
+</script>
+
+})
 
 <footer>
 <div class="ml-auto p-1 bd-highlight"></div>
