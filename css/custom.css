@@ -18,7 +18,8 @@
   height: 80vh;
 }
 .navbarbg{
-  background-color: #3E4740;
+  background-color: #161513;
+  color: #C6B6AD;
 
 }
 @media only screen and (min-width: 400px) {
