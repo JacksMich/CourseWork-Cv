@@ -10,57 +10,63 @@
     <link rel="stylesheet" href="css/custom.css">
 
     <title>~Jacque's Website~</title>
+
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">~J.M.N~</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="index2.html">Projects</a></li>
+          <li><a href="cv.html">CV</a></li>
+          <li><a href="index3.html">Contact Me</a></li>
+        </ul>
+      </div>
+    </nav>
+
   </head>
   <body>
-      <nav class="navbar navbar-inverse">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <a class="navbar-brand" href="#">~J.M.N~</a>
-          </div>
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="index2.html">Projects</a></li>
-            <li><a href="cv.html">CV</a></li>
-            <li><a href="index3.html">Contact Me</a></li>
-          </ul>
-        </div>
-      </nav>
+    <div class="my-background">
+
 
 <h1>Contact me</h1>
 <p><large class="text-muted">You can contact me directly form here if you have a quick query on how I was able to complete my projects.</large></p>
 <p><large class="text-muted">For a quick chat feel free to email me :)</large></p>
-<form>
-  <form>
+<form role="form" data-toggle="validator">
   <div class="form-row">
     <div class="form-group col-md-6">
       <label for="inputEmail4">Email</label>
-      <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+      <input type="email" class="form-control" id="inputEmail4" placeholder="Email"data-error="Invalid email address" required>>
     </div>
     <div class="form-group col-md-6">
       <label for="inputFullName">Full name</label>
       <input type="name" class="form-control" id="inputFullName" placeholder="Full name">
+      <div class="help-block">Minimum of 6 characters</div>
     </div>
   </div>
   <div class="form-group">
     <label for="inputSubject">Subject</label>
     <input type="text" class="form-control" id="inputSubject" placeholder="Subject">
+    <div class="help-block">Minimum of 2 characters</div>
   </div>
 
 </form>
   <div class="form-group">
     <label for="inputQuery">Query</label>
     <textarea class="form-control" id="inputQuery" rows="3"></textarea>
+    <div class="help-block">Maximum of 75 characters</div>
   </div>
   <a href="query.html" class="btn btn-color">Submit query</a>
 </form>
 
-<script src="bootstrap-validate.js"></script>
+<!--<script src="bootstrap-validate.js"></script>
 <script>
  bootstrapValidate('#inputEmail4', 'Email should be in this form 'xyz@abc.com'')
- bootstrapValidate('#inputFullName', 'Name is missing')
- bootstrapValidate('#inputSubject', 'Field is missing')
+ bootstrapValidate('#inputFullName', 'min:5:Name is missing')
+ bootstrapValidate('#inputSubject', 'min:5:Field is missing')
  bootstrapValidate('#inputQuery','max:75:Please do not exceed more than 75 characters')
-</script>
+</script>-->
 
 <footer>
 <div class="ml-auto p-1 bd-highlight"></div>
